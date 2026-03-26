@@ -8,12 +8,15 @@ class Token:
 
 @dataclass
 class OptionNode:
-    pass
+    is_correct: bool
+    text: str
 
 @dataclass
 class QuestionNode:
-    pass
+    text: str
+    options: List[OptionNode]
 
 @dataclass
 class QuizNode:
-    pass
+    title: str
+    questions: List[QuestionNode]
