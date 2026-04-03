@@ -49,6 +49,10 @@ class Parser:
         if len(options) < 2:
             raise SyntaxError("A <question> must contain two or more <option> blocks")
 
+        # Additional check to ensure at least one option is marked as correct
+        if not any(option.is_correct for option in options):
+            raise SyntaxError("A <question> must contain at least one correct <option>")
+
         self.eat('TAG_CLOSE', '</question>')
 
         return QuestionNode(text=text_token.value, options=options)
