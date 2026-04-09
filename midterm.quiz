@@ -1,0 +1,17 @@
+<quiz>
+    <title> Programming Languages Midterm </title>
+    
+    <question>
+        <text> Which programming paradigm is based on mathematical functions? </text>
+        <option> Imperative </option>
+        <option correct="true"> Functional </option>
+        <option> Object-Oriented </option>
+    </question>
+
+    <question>
+        <text> What is the primary purpose of a lexical analyzer? </text>
+        <option correct="true"> To group characters into lexemes and assign tokens. </option>
+        <option> To generate machine code. </option>
+        <option> To build a parse tree. </option>
+    </question>
+</quiz>
