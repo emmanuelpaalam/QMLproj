@@ -1,0 +1,39 @@
+{
+  "title": "Programming Languages Midterm",
+  "questions": [
+    {
+      "text": "Which programming paradigm is based on mathematical functions?",
+      "options": [
+        {
+          "text": "Imperative",
+          "is_correct": false
+        },
+        {
+          "text": "Functional",
+          "is_correct": true
+        },
+        {
+          "text": "Object-Oriented",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "What is the primary purpose of a lexical analyzer?",
+      "options": [
+        {
+          "text": "To group characters into lexemes and assign tokens.",
+          "is_correct": true
+        },
+        {
+          "text": "To generate machine code.",
+          "is_correct": false
+        },
+        {
+          "text": "To build a parse tree.",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}
