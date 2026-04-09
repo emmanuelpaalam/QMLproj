@@ -14,12 +14,4 @@
         <option> To generate machine code. </option>
         <option> To build a parse tree. </option>
     </question>
-
-    <question>
-        <text> This one should throw an error because two answers can not be correct. </text>
-        <option correct="true"> Correct answer 1 </option>
-        <option correct="true"> Correct answer 2 </option>
-        <option> Incorrect answer 1 </option>
-        <option> Incorrect answer 2 </option>
-    </question>
 </quiz>
